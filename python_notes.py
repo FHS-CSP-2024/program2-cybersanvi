@@ -1,0 +1,10 @@
+name = input("Please tell me your name. ")
+print("Hi " + name + '!')
+print(name + " is a pretty cool name!")
+print("It's really cool to meet you " + name + "!")
+
+name = input("Tell me your name now. ")
+email = input("Let me send you spam. Type in your email. ")
+nickname = input("What do your freiends call you? ")
+print("Hey " + name + ", or should I say " + nickname)
+print("I am going to send you a bunch of span at " + email)
