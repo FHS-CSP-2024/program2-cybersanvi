@@ -50,8 +50,9 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
+name = input("Hey what's up? Tell me your name: ")
+print("Oh hey " + name + "!")
+print("It's great to meet you! You seem like a pretty cool person " + name + "!")
 
 
 ## Problem 2 ##
@@ -59,6 +60,14 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
+
+name = input("Hellooo! What's your name? -> ")
+print("!" + name + "!" + name + "!")
+print("I got something cool to show ya!")
+print("0   0")
+print("  |  ")
+print("\___/\n")
+print("It's a smiley face!")
 
 
 ## Problem 3 ##
@@ -71,10 +80,28 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+print("Welcome, I will be asking you some questions to apply for this python competition.")
+first_name = input("Hello, please tell me your first name: ")
+last_name = input("Now tell me your last name: ")
+street = input("What street do you live at? -> ")
+city_postal = input("Now finally tell me your city and postal code: ")
+print("Thank you for submitting your application!")
+print("Here are your application details: ")
+print("First name: " + first_name)
+print("Last name: " + last_name)
+print("Street address: " + street)
+print("City and Postal Code: " + city_postal)
+print("\n")
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
+
+word1 = input("Tell me an ice cream flavor: ")
+word2 = input("Tell me the name of a fruit: ")
+word3 = input("Pick an icecream topping from (Sprinkles, ChocolateSyrup, Gummies, Jellybeans): ")
+print("Here is your order of " + word1 + "Icecream-" + word2 + "-" + word3)
+print("That's a cool order!\n")
 
 
 ## Problem 5 ##
@@ -89,3 +116,10 @@
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
 
+print("Hello! I am going to write a story, but you get to choose the main character and the time it takes place!")
+name = input("Give me the name of the protagonist: ")
+year = input("Now give me a year (YYYY): ")
+print("There once was an amazing individual named " + name + ".")
+print("In " + year + ", " + name + " was going on a hike with friends.")
+print("Suddenly, one of " + name + "'s friends Josh slipped off the edge!" )
+print("Luckily, " + name + " grabbed Josh and brought him up to safety!")
